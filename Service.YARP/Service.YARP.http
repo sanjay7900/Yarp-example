@@ -1,0 +1,6 @@
+@Service.YARP_HostAddress = http://localhost:5217
+
+GET {{Service.YARP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
